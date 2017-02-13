@@ -7,6 +7,6 @@ const Header = (props) => {
       <Text>{props.headerText}</Text>
     </View>
   );
-}
+};
 
 export default Header;
