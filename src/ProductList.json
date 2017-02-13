@@ -1,0 +1,134 @@
+[
+  {
+    "label": "Pepperoni, rjómaostur, sveppir, svartar ólífur, svartur pipar og hvítlaukur. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Pepperoni",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Roberto-Baggio-1400x500.jpg"
+  },
+  {
+    "label": "Engin botnsósa heldur beikonsulta. Pepperoni, fajitas kjúklingur, jalapenjó og Shake&Pizza ostablandan. Nachos og hvítlaukssósa...",
+    "title": "Margarita",
+    "price": "2.790 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/03/ShakePizza-special-beikonsultupizzan_2-1400x500.jpg"
+  },
+  {
+    "label": "Pulled pork, tvöfalt magn af beikonsneiðum, Jalapenjó, Rjómaostur, Pizzasósan okkar, Shake&Pizza ostablandan og BBQ sósa á...",
+    "title": "Eyþór Special",
+    "price": "2.790 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/10/gummi_ben-1-1400x500.jpg"
+  },
+  {
+    "label": "Cheddar, Dalabrie, gráðaostur, ferskt basil og Shake&Pizza ostablandan. Engin botnsósa, en rifsberjasulta fylgir.",
+    "title": "P-dog",
+    "price": "2.490 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Osthildur-1400x500.jpg"
+  },
+  {
+    "label": "Pepperoni, sveppir, pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Hakk og sveppir",
+    "price": "1.990 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/sveppi-roni.jpg"
+  },
+  {
+    "label": "Pepperoni, skinka, nautahakk og beikon. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "El Brynjo",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/David-Hasselhoff-1400x500.jpg"
+  },
+  {
+    "label": "Hráskinka, klettasalat og eðal Reggiano parmesan á toppnum. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Ronnie Coleman",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Parmela-1400x500.jpg"
+  },
+  {
+    "label": "Fajitas kjúklingur, kirsuberjatómatar, hvítlaukur, rjómaostur og ferskt basil. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Hawaii",
+    "price": "2.490 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Hilmir-Snær-1400x500.jpg"
+  },
+  {
+    "label": "Karamelliseraðar perur, parmaskinka, hnetukurl, gráðaostur. Pizzasósan okkar og Shake&Pizza ostablandan. Toppuð með fersku klettasalati.",
+    "title": "BBQ Pizzan",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Halogen-1400x500.jpg"
+  },
+  {
+    "label": "Pepperoni, jalapenjó, ferskur chilli, bananapipar, rauðlaukur og svartur pipar. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Flemming Pizza",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/heitari-en-helviti.jpg"
+  },
+  {
+    "label": "BBQ kjúklingur, ananas, rauðlaukur og fersk steinselja. Pizzasósan okkar, Shake&Pizza ostablandan og BBQ sósa...",
+    "title": "Kjúklina pizza",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/svarti-kjuklingur.jpg"
+  },
+  {
+    "label": "Pepperoni, bananar, rjómaostur og vel af oreganoooeeehoooeeooh! Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Prikið special",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Tarzan-1400x500.jpg"
+  },
+  {
+    "label": "Pepperoni, beikon, rjómaostur, piparostur og svartur pipar. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "HackStreetBoys",
+    "price": "2.490 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/gisli-uppsolum.jpg"
+  },
+  {
+    "label": "Buffalo kjúklingur, beikonkurl og rauðlaukur. Pizzasósan okkar og Shake&Pizza ostablandan. Louisiana Hot sósa á...",
+    "title": "Ala repEAT",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/raudi-kjuklingur.jpg"
+  },
+  {
+    "label": "Pepperoni, beikonsneiðar, jalapenjó, mozzarekkasticks, nachos, ostasósa, Pizzusósan okkar og Shake&Pizza ostablandan.",
+    "title": "Veislupizzan",
+    "price": "2.790 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/10/the-dude-1400x500.jpg"
+  },
+  {
+    "label": "Kjúklingur, sesarsalat, paprika, fetaostur, brauðteningar, parmasanostur, hvítlaukur og Shake&Pizza ostablandan.",
+    "title": "Kjúklingurinn",
+    "price": "2.490 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/10/sesar-salat-pizzan-1400x500.jpg"
+  },
+  {
+    "label": "Heimalagað hvítlaukssmjör og Shake&Pizza ostablandan.",
+    "title": "Atom pizzan",
+    "price": "1.490 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/hvitlauksbraud.jpg"
+  },
+  {
+    "label": "Skinka og ananas. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Sublime Pizzan",
+    "price": "1.990 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Ha-why-1400x500.jpg"
+  },
+  {
+    "label": "Einföld og gómsæt. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Fleh Pizzan",
+    "price": "1.490 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/margarita.jpg"
+  },
+  {
+    "label": "Heimalagað hvítlaukssmjör, beikon og Shake&Pizza ostablandan.",
+    "title": "Hvítlauks petsan",
+    "price": "1.590 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Beikonbrauð-1400x500.jpg"
+  },
+  {
+    "label": "Parmesan, hvítlaukur, kirsuberjatómatar, ólífur, ferskt basil. Pizzasósan okkar og Shake&Pizza ostablandan.",
+    "title": "Ala Pálmi",
+    "price": "2.190 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/04/Grænætan-1400x500.jpg"
+  },
+  {
+    "label": "Tómatpúrré sósa, rauðlaukur, sveppir, ananas, jalapenjó, sætar kartöflur og Veganostur.",
+    "title": "Ala Eyþór",
+    "price": "2.790 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/10/las-vegans-1400x500.jpg"
+  }
+]
