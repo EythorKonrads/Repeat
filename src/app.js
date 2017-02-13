@@ -6,7 +6,8 @@ class App extends Component {
   render() {
     return (
       <View>
-        <Header headerText={'App'} />
+        {/* <Header headerText={'Repeat'} /> */}
+        <Header />
       </View>
     );
   }
