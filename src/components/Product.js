@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Linking } from 'react-native';
+import Button from './Button';
 
 const Product = ({ product }) => {
   const { title, picture, price, label } = product;
@@ -11,6 +12,7 @@ const Product = ({ product }) => {
         <Text style={styles.headerTextStyle}>{title}</Text>
         <Text>{label}</Text>
         <Text>{price}</Text>
+        <Button onPress={() => Linking.openURL(picture)}>Nánar</Button>
       </View>
     </View>
   );
