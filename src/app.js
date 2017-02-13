@@ -7,8 +7,12 @@ class App extends Component {
   render() {
     return (
       <View>
+{/* header
+        {/* <Header headerText={'Repeat'} /> */}
+        <Header /> */}
         <Header headerText={'App'} />
         <ProductList />
+         master
       </View>
     );
   }
