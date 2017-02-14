@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, Navigator, TouchableHighlight } from 'react-native';
-
+import ProductList from './ProductList';
 // const Header = (props) => {
 //   const { textStyle, viewStyle } = styles;
 //   return (
@@ -9,11 +9,13 @@ import { View, Text, Navigator, TouchableHighlight } from 'react-native';
 //     </View>
 //   );
 // };
+
 export default class Header extends Component {
   render() {
     const routes = [
-      { title: 'First Scene', index: 0 },
-      { title: 'Second Scene', index: 1 },
+      { title: null, index: 0 },
+      { title: <Text>dweqdewdewf</Text>, index: 1 },
+      { title: <ProductList />, index: 2 },
     ];
     return (
       <Navigator
@@ -21,36 +23,40 @@ export default class Header extends Component {
         initialRouteStack={routes}
         renderScene={(route, navigator) => {
           return (
-            <View>
-              <Text>hallods jfjdsfj jdsljf</Text>
-              <Text>hallods jfjdsfj jdsljf</Text>
-              <Text>hallods jfjdsfj jdsljf</Text>
-              <Text>hallods jfjdsfj jdsljf</Text>
-              <Text>hallods jfjdsfj jdsljf</Text>
-            </View>
-          )
+            route.title
+          );
         }
 
         }
-        style={{ padding: 100 }}
+
         navigationBar={
           <Navigator.NavigationBar
             routeMapper={{
               Title: (route, navigator, index, navState) =>
-              { return (<Text>{route.title}</Text>); },
+              { return (<Text>RepEat</Text>); },
               LeftButton: (route, navigator, index, navState) =>
-              { return (<Text>Matur</Text>); },
+              { return (<TouchableHighlight
+                onPress={() => {
+                  if (route.index === 0 || route.index === 1 ) {
+                    navigator.push(routes[2]);
+                  } else {
+                    navigator.pop();
+                  }
+                }}
+                        >
+                <Text>Matur</Text>
+              </TouchableHighlight>); },
               RightButton: (route, navigator, index, navState) =>
               { return (<TouchableHighlight
                 onPress={() => {
-                  if (route.index === 0) {
+                  if (route.index === 0 || route.index === 2) {
                     navigator.push(routes[1]);
                   } else {
                     navigator.pop();
                   }
                 }}
                         >
-                <Text>Drykkir!</Text>
+                <Text>Drykkir</Text>
               </TouchableHighlight>); },
             }}
             renderScene={ this.renderScene }
@@ -58,7 +64,7 @@ export default class Header extends Component {
           />
         }
         configureScene={(route, routeStack) =>
-        Navigator.SceneConfigs.FloatFromBottom}
+        Navigator.SceneConfigs.FloatFromRight}
       />
     );
   }

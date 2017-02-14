@@ -8,9 +8,10 @@ class App extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <Header headerText={'App'} />
-        <ProductList />
+        <Header />
+        <View />
          <Footer footerText={'Skoða pöntun'} />
+
       </View>
     );
   }
