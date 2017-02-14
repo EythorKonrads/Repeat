@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 import Header from './components/Header';
 import ProductList from './components/ProductList';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -9,6 +10,8 @@ class App extends Component {
       <View style={{ flex: 1 }}>
         <Header />
         <View />
+         <Footer footerText={'Skoða pöntun'} />
+
       </View>
     );
   }
