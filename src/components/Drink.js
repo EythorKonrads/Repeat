@@ -2,14 +2,14 @@ import React from 'react';
 import { View, Text, Image, Linking } from 'react-native';
 import Button from './Button';
 
-const Product = ({ product }) => {
-  const { title, picture, price, label } = product;
+const Drink = ({ drink }) => {
+  const { picture, price, label } = drink;
 
   return (
     <View>
-      <Image style={styles.ImageStyle} source={{ uri: picture }} alt="" />
+      <Image style={{ height: 300, marginTop: 20 }} source={{ uri: picture }} alt="" />
       <View style={{ marginLeft: 10, marginRight: 10, marginTop: 10 }}>
-        <Text style={styles.headerTextStyle}>{title}</Text>
+        {/* <Text style={styles.headerTextStyle}>{title}</Text> */}
         <Text>{label}</Text>
         <Text>{price}</Text>
         <Button onPress={() => Linking.openURL(picture)}>Nánar</Button>
@@ -18,14 +18,10 @@ const Product = ({ product }) => {
   );
 };
 
-const styles = {
-  headerTextStyle: {
-    fontSize: 20
-  },
-  ImageStyle: {
-    height: 300,
-    marginTop: 20
-  }
-};
+// const styles = {
+//   headerTextStyle: {
+//     fontSize: 20
+//   }
+// };
 
-export default Product;
+export default Drink;

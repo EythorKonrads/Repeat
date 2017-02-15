@@ -9,8 +9,9 @@ class App extends Component {
 
     // noRoute(navigator) {
     //   return (
-    //     <View>
+    //     <View style={{ flex: 1, alignItems: 'stretch', justifyContent: 'center' }}>
     //       <TouchableOpacity
+    //         style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
     //         onPress={() => navigator.pop()}
     //       >
     //         <Text style={{ color: 'red', fontWeight: 'bold' }}>fleh</Text>
@@ -33,6 +34,7 @@ class App extends Component {
   render() {
     return (
       <Navigator
+        style={{ flex: 1 }}
         initialRoute={{ id: 'Food', name: 'Index' }}
         renderScene={this.renderScene.bind(this)}
         configureScene={(route) => {

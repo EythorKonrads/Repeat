@@ -29,29 +29,26 @@ class ProductList extends Component {
 renderScene(route, navigator) {
   return (
     <View style={{
-        // flexDirection: 'row',
-        // justifyContent: 'space-between',
-        // paddingTop: 25,
-        // paddingBottom: 15,
-        // backgroundColor: '#F8F8F8',
-        // height: 60,
-        // shadowColor: '#000',
-        // shadowOffset: { width: 0, height: 2 },
-        // shadowOpacity: 0.1,
-        // elevation: 2,
-        // position: 'relative',
-        // scaleY: 0,
-        // transformY: 0,
-        // transformX: 0,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingTop: 25,
+        paddingBottom: 15,
+        backgroundColor: '#F8F8F8',
+        height: 60,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        elevation: 2,
+        position: 'relative',
       }}>
-      <TouchableHighlight
-          onPress={this.goToDrinksPage.bind(this)}>
-        <Text>Drykkir</Text>
-      </TouchableHighlight>
-      <Text>repEAT</Text>
       <TouchableHighlight
           onPress={this.goToFoodPage.bind(this)}>
         <Text>Matur</Text>
+      </TouchableHighlight>
+      <Text>repEAT</Text>
+      <TouchableHighlight
+          onPress={this.goToDrinksPage.bind(this)}>
+        <Text>Drykkir</Text>
       </TouchableHighlight>
     </View>
   );
@@ -82,15 +79,16 @@ goToFoodPage() {
   render() {
     return (
       <View style={{}}>
+        {this.renderScene()}
         {/* <Nav headerText={'App'} /> */}
-        <Navigator
+        {/* <Navigator
           renderScene={this.renderScene.bind(this)}
           navigator={this.props.navigator}
           // navigationBar={
             // <Navigator.NavigationBar style={{backgroundColor: '#246dd5'}}
             //     routeMapper={NavigationBarRouteMapper} />
     //}
-   />
+   /> */}
         <ScrollView>
           {this.renderProducts()}
         </ScrollView>
