@@ -8,9 +8,10 @@ class Drinks extends Component {
 
   renderScene() {
     return (
-      <View style={{
+      <View>
+        <View style={{
           flexDirection: 'row',
-          justifyContent: 'space-between',
+          justifyContent: 'center',
           paddingTop: 25,
           paddingBottom: 15,
           backgroundColor: '#F8F8F8',
@@ -21,15 +22,20 @@ class Drinks extends Component {
           elevation: 2,
           position: 'relative',
         }}>
-        <TouchableHighlight
-            onPress={this.goToFoodPage.bind(this)}>
-          <Text>Matur</Text>
-        </TouchableHighlight>
-        <Text style={{ fontSize: 20, fontWeight: 'bold' }}>repEAT</Text>
-        <TouchableHighlight
-            onPress={this.goToDrinksPage.bind(this)}>
-          <Text>Drykkir</Text>
-        </TouchableHighlight>
+          <Text style={{ fontSize: 18, fontWeight: 'bold' }}>repEAT</Text>
+        </View>
+
+        <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 20, paddingBottom: 10 }}>
+          <TouchableHighlight
+              onPress={this.goToFoodPage.bind(this)}>
+            <Text style={{ marginRight: 40, fontSize: 18, fontWeight: 'bold', color: '#484848', opacity: 0.7 }}>Matur</Text>
+          </TouchableHighlight>
+          <TouchableHighlight
+              onPress={this.goToDrinksPage.bind(this)}>
+            <Text style={{ marginLeft: 40, fontSize: 18, fontWeight: 'bold', color: '#484848' }}>Drykkir</Text>
+          </TouchableHighlight>
+        </View>
+
       </View>
     );
   }
