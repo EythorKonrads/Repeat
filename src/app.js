@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <Navigator
-        style={{ flex: 1 }}
+        style={{ flex: 1, backgroundColor: '#eee' }}
         initialRoute={{ id: 'Food', name: 'Index' }}
         renderScene={this.renderScene.bind(this)}
         configureScene={(route) => {

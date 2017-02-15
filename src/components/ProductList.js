@@ -45,7 +45,7 @@ renderScene(route, navigator) {
         <Text style={{ fontSize: 18, fontWeight: 'bold' }}>repEAT</Text>
       </View>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 20, paddingBottom: 10 }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'center', paddingBottom: 10, paddingTop: 10, backgroundColor: '#fff' }}>
         <TouchableHighlight
             onPress={this.goToFoodPage.bind(this)}>
           <Text style={{ marginRight: 40, fontSize: 18, fontWeight: 'bold', color: '#484848' }}>Matur</Text>
