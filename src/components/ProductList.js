@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, View, Text, Navigator, TouchableOpacity, TouchableHighlight } from 'react-native';
+import { ScrollView, View, Text, Navigator, TouchableOpacity, TouchableHighlight, Image } from 'react-native';
 // import axios from 'axios';
 import Product from './Product';
 import ProductData from '../ProductList.json';
@@ -35,14 +35,15 @@ renderScene(route, navigator) {
         paddingTop: 25,
         paddingBottom: 15,
         backgroundColor: '#F8F8F8',
-        height: 60,
+        // height: 60,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.1,
         elevation: 2,
         position: 'relative',
       }}>
-        <Text style={{ fontSize: 18, fontWeight: 'bold' }}>repEAT</Text>
+        {/* <Text style={{ fontSize: 18, fontWeight: 'bold' }}>repEAT</Text> */}
+        <Image source={require('../img/logo.png')} alt="" />
       </View>
 
       <View style={{ flexDirection: 'row', justifyContent: 'center', paddingBottom: 10, paddingTop: 10, backgroundColor: '#fff' }}>
