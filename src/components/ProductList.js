@@ -29,8 +29,11 @@ class ProductList extends Component {
 renderScene(route, navigator) {
   return (
     <View style={{
+
+      }}>
+      <View style={{
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
         paddingTop: 25,
         paddingBottom: 15,
         backgroundColor: '#F8F8F8',
@@ -41,15 +44,20 @@ renderScene(route, navigator) {
         elevation: 2,
         position: 'relative',
       }}>
-      <TouchableHighlight
-          onPress={this.goToFoodPage.bind(this)}>
-        <Text>Matur</Text>
-      </TouchableHighlight>
-      <Text>repEAT</Text>
-      <TouchableHighlight
-          onPress={this.goToDrinksPage.bind(this)}>
-        <Text>Drykkir</Text>
-      </TouchableHighlight>
+        <Text style={{ fontSize: 18, fontWeight: 'bold' }}>repEAT</Text>
+      </View>
+
+      <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 20 }}>
+        <TouchableHighlight
+            onPress={this.goToFoodPage.bind(this)}>
+          <Text style={{ marginRight: 40 }}>Matur</Text>
+        </TouchableHighlight>
+        <TouchableHighlight
+            onPress={this.goToDrinksPage.bind(this)}>
+          <Text style={{ marginLeft: 40 }}>Drykkir</Text>
+        </TouchableHighlight>
+      </View>
+
     </View>
   );
 }
