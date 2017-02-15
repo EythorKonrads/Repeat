@@ -7,7 +7,6 @@ import Drinks from './components/Drinks';
 
 class App extends Component {
 
-
     // noRoute(navigator) {
     //   return (
     //     <View style={{ flex: 1, alignItems: 'stretch', justifyContent: 'center' }}>
