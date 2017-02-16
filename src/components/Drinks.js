@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import { ScrollView, View, Image } from 'react-native';
-// import axios from 'axios';
-import Product from './Product';
-import ProductData from '../ProductList.json';
+// import SingleDrink from './SingleDrink';
+import Drink from './Drink';
+import DrinkList from '../DrinkList.json';
 
+class Drinks extends Component {
 
-class ProductList extends Component {
-
-  renderProducts() {
+  renderDrinks() {
     console.log(this.state);
-    return ProductData.map(product =>
-      <Product
-        key={product.title}
-        product={product} />
+    return DrinkList.map(drink =>
+      <Drink key={drink.label} drink={drink} />
     );
   }
 
@@ -21,12 +18,11 @@ class ProductList extends Component {
       <View>
         <Image style={{ justifyContent: 'center', alignSelf: 'center', height: 76, marginTop: 80 }} source={require('../img/loggo.png')} alt="" />
         <ScrollView>
-          {this.renderProducts()}
+          {this.renderDrinks()}
         </ScrollView>
       </View>
-
     );
   }
 }
 
-export default ProductList;
+export default Drinks;

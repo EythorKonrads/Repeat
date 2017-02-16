@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Boli - 0.5 lítra",
+    "price": "890 kr",
+    "picture": "https://pbs.twimg.com/media/BE2-ZFeCYAAkgSl.jpg"
+  },
+  {
+    "label": "7up – 2.lítra",
+    "price": "445 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/11/7up.png"
+  },
+  {
+    "label": "Kristall Gulur – 2.lítra",
+    "price": "445 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/11/kristall-gulur.png"
+  },
+  {
+    "label": "Kristall Blár – 2.lítra",
+    "price": "445 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/11/kristall-blar.png"
+  },
+  {
+    "label": "Appelsín – 2.lítra",
+    "price": "445 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/11/appelsin.png"
+  },
+  {
+    "label": "Pepsí – 2.lítra",
+    "price": "445 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/11/pepsi.png"
+  },
+  {
+    "label": "Pepsí Max – 2.lítra",
+    "price": "445 kr",
+    "picture": "https://shakepizza.is/kerfi/wp-content/uploads/2016/10/pepsi-max.png"
+  }
+]

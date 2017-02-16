@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Image, Linking } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 import Button from './Button';
 
 const Product = ({ product }) => {
@@ -9,7 +10,12 @@ const Product = ({ product }) => {
     <View>
       <Image style={{ height: 300, marginTop: 20 }} source={{ uri: picture }} alt="" />
       <View style={{ marginLeft: 10, marginRight: 10, marginTop: 10 }}>
-        <Text style={styles.headerTextStyle}>{title}</Text>
+        <Text
+          onPress={() => Actions.singleproduct(product)}
+          style={styles.headerTextStyle}
+        >
+          {title}
+        </Text>
         <Text>{label}</Text>
         <Text>{price}</Text>
         <Button onPress={() => Linking.openURL(picture)}>Nánar</Button>
